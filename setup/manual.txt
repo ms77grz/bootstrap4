@@ -1,0 +1,66 @@
+BOOTSTRAP SECTION
+https://getbootstrap.com/docs/4.5/getting-started/download/
+https://getbootstrap.com/docs/4.5/getting-started/contents/#css-files
+
+Download zip, unzip and save:
+setup/css/bootstrap.min.css
+setup/js/bootstrap.bundle.min.js
+
+JQUERY SECTION
+https://jquery.com/download/
+
+Download the compressed, production jQuery 3.5.1
+setup/js/jquery-3.5.1.min.js
+
+FONTAWESOME CDN
+https://fontawesome.com/account/cdn
+FREE ALL SVG
+copy link
+<script defer src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" integrity="sha384-9/D4ECZvKMVEJ9Bhr3ZnUAF+Ahlagp1cyPC7h5yDlZdXs4DQ/vRftzfd+2uFUuqS" crossorigin="anonymous"></script>
+
+FONTAWESOME DOWNLOAD
+https://fontawesome.com/download
+Free for Web
+Download zip, unzip and save:
+setup/js/all.js
+
+GOOGLE FONTS
+https://fonts.google.com/
+'Arvo' font
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap" rel="stylesheet">
+font-family: 'Arvo', serif;
+
+LOCAL FONTS ...
+
+MAIN CSS
+setup/css/main.css
+body {
+  font-family: 'Arvo', serif;
+}
+
+PICTURES
+https://www.pexels.com/
+setup/img/header-bcg.jpg
+
+COLORS
+https://coolors.co/
+
+
+
+
+
+
+===================================
+.container>.row>(.col-4)*3
+
+
+select fontawesome icon with parent element
+a {
+    font-size: 4rem;
+    color: coral;
+}
+
+<a href="#">
+    <i class="fas fa-home fa-3x"></i>
+</a>
