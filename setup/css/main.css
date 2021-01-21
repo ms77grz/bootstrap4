@@ -30,7 +30,8 @@ body {
   background-attachment: fixed; */
 }
 
-#filler {
+#filler,
+#progress {
   background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)),
     url(../img/project-1.jpg) center / cover no-repeat fixed;
 }
